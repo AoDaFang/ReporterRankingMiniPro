@@ -57,6 +57,8 @@ Page({
   },
   // 点击编辑按钮
   editData: function(){
-    
+    wx.redirectTo({
+      url: '/pages/edit/edit'
+    })
   }
 })

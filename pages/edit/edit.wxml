@@ -1,1 +1,9 @@
-<text>pages/edit/edit.wxml</text>
+<picker class="edit-picker" bindchange="bindPickerChange" data-tag="reporterPicker"  value="{{reporterIndex}}" range="{{reporterList}}">
+    <text class="edit-text">{{currentRepoter}}</text>
+    <i-icon class="edit-icon" type="enter" size="20" color="#80848f" />
+</picker>
+<picker class="edit-picker" bindchange="bindPickerChange" data-tag="channelPicker" value="{{channelIndex}}" range="{{channelList}}">
+    <text class="edit-text">{{currentChannel}}</text>
+    <i-icon class="edit-icon" type="enter" size="20" color="#80848f" />
+</picker>
+<button class="OK-btn" type="primary" bindtap='OKTap'>确定</button>

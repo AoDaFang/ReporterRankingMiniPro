@@ -1,1 +1,27 @@
-/* pages/edit/edit.wxss */
+.edit-picker{
+    position: relative;
+    height: 80rpx;
+    width: 100%;
+    background: #fff;
+    line-height: 80rpx;
+    font-size: 14px;
+    overflow: hidden;
+    border-bottom: 1rpx solid #eee;
+    box-sizing: border-box;
+}
+.edit-text{
+    float: left;
+    width: 80%;
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+.edit-icon{
+    float: right;
+    width: 20%;
+    text-align: right;
+    box-sizing: border-box;
+    padding-right: 15px;
+}
+.OK-btn{
+    margin-top: 100rpx;
+}
